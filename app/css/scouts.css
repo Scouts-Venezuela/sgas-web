@@ -1,0 +1,198 @@
+/* -------------------------------- 
+
+    Definiciones
+    
+-------------------------------- */
+
+/** {
+    font-family: 'Open Sans', sans-serif;
+}*/
+
+* {
+    font-family: 'Ubuntu', 'Open Sans', sans-serif;
+}
+
+.scouts {
+}
+
+.scouts:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    z-index: -1;
+    background: url('../img/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.scouts-dashboard:before {
+    opacity: .25;
+}
+
+.scouts-main, .scouts .navbar-default {
+    background-color: #622599 !important;
+    color: #ffffff !important;
+}
+
+.scouts .icon-bar {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.scouts .navbar-default .navbar-nav > li > a, .scouts .navbar-text {
+    color: #ffffff !important;
+}
+
+.scouts .nav > li:hover {
+    background-color: #501E7D;
+}
+
+.scouts #login-icon {
+    font-size: 10em;
+}
+
+.scouts #login-box {
+    text-align: left;
+}
+
+.scouts #login-box .header, .scouts #login-box .header h2 {
+    color: #ffffff !important;
+}
+
+/* -------------------------------- 
+
+    Admin
+    
+-------------------------------- */
+
+.scouts .admin:hover, .scouts .admin-bg {
+    background-color: #0054A0 !important;
+    color: #ffffff;
+}
+
+.scouts .admin-text, .scouts .admin-text a {
+    color: #0054A0 !important;
+}
+
+/* -------------------------------- 
+
+    Adult
+    
+-------------------------------- */
+
+.scouts .adult:hover, .scouts .adult-bg {
+    background-color: #E23D28 !important;
+    color: #ffffff;
+}
+
+.scouts .adult-text, .scouts .adult-text a {
+    color: #E23D28 !important;
+}
+
+/* -------------------------------- 
+
+    Young
+    
+-------------------------------- */
+
+.scouts .young:hover, .scouts .young-bg {
+    background-color: #AABA0A !important;
+    color: #ffffff;
+}
+
+.scouts .young-text, .scouts .young-text a {
+    color: #AABA0A !important;
+}
+
+/* -------------------------------- 
+
+    Sponsor
+    
+-------------------------------- */
+
+.scouts .sponsor:hover, .scouts .sponsor-bg {
+    background-color: #3D8E33 !important;
+    color: #ffffff;
+}
+
+.scouts .sponsor-text, .scouts .sponsor-text a {
+    color: #3D8E33 !important;
+}
+
+
+/*scouts
+.scout-bg, .scout:hover
+{
+    background-color: #622599 !important;
+    
+    border-color: transparent !important;
+}
+
+.scout-bg .navbar-nav>li>a
+{
+    color: #ffffff;
+}
+
+.scout-admin-bg, .scout-admin:hover
+{
+    background-color: #0054A0 !important;
+    color: #ffffff !important;
+    border-color: transparent !important;
+}
+
+.adultos-bg, .adultos:hover
+{
+    background-color: #E23D28 !important;
+    color: #ffffff !important;
+    border-color: transparent !important;
+}
+
+.jovenes-bg, .jovenes:hover
+{
+    background-color: #AABA0A !important;
+    color: #ffffff !important;
+    border-color: transparent !important;
+}
+
+.patrocinantes-bg, .patrocinantes:hover
+{
+    background-color: #3D8E33 !important;
+    color: #ffffff !important;
+    border-color: transparent !important;
+}
+
+.scout-fg, .scout-fg > i
+{
+    color: #622599 !important;
+}
+
+.adultos-fg, .adultos-fg > i
+{
+    color: #E23D28 !important;
+}
+
+.jovenes-fg, .jovenes-fg > i
+{
+    color: #AABA0A !important;
+}
+
+.patrocinantes-fg, .patrocinantes-fg > i
+{
+    color: #3D8E33 !important;
+}
+
+.scout-bg, .scout-bg > i, 
+.scout:hover, .scout:hover > i, 
+.adultos:hover, .adultos:hover > i,
+.adultos-bg, .adultos-bg > i, 
+.jovenes-bg, .jovenes-bg > i, 
+.jovenes:hover, .jovenes:hover > i, 
+.patrocinantes-bg, .patrocinantes-bg > i, 
+.patrocinantes:hover, .patrocinantes:hover > i
+{
+    color: #ffffff !important;
+}*/
