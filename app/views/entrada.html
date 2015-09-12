@@ -1,0 +1,17 @@
+    <link href="styles/entrada.css" rel="stylesheet">
+    <div id="half-background"></div>
+
+    <div id="container-flexbox">        
+        <form name="entrar" method="post" class="form-signin" role="form" ng-submit="iniciarSesion()">
+            <h2 class="form-signin-heading">Bienvenido</h2>
+            <alert ng-repeat="alert in alerts" type="{{alert.type}}" close="closealerta($index)">{{alert.msg}}</alert>
+            <input type="email" class="form-control" placeholder="Usuario" name="usuario" ng-model="login.usuario" required autofocus>
+            <input type="password" class="form-control" placeholder="Contraseña" name="clave" ng-model="login.clave" required>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" value="remember-me" ng-model="login.recordar"> Recordarme
+                </label>
+            </div>
+            <button class="btn btn-lg btn-primary btn-block" type="submit" ng-disabled="entrar.$invalid || !button.enable">{{button.text}}</button>
+        </form>
+    </div>

@@ -6,3 +6,9 @@
 /.metadata
 /.settings
 /aspnet_client
+/node_modules
+/dist
+/.tmp
+/.sass-cache
+/bower_components
+npm-debug.log
