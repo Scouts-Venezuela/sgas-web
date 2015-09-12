@@ -18,7 +18,7 @@ angular.module('sgasApp')
         $scope.login = {};
 
         $scope.button = {
-            text: 'Entrar',
+            text: 'Iniciar sesión',
             enable: true
         };
 
@@ -60,7 +60,7 @@ angular.module('sgasApp')
                 var rsp = $rootScope.httpCode(error.status);
                     $rootScope.oneAlert(rsp);
                     $scope.button = {
-                        text: 'Entrar',
+                        text: 'Iniciar sesión',
                         enable: true
                     };
             });

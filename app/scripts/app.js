@@ -24,7 +24,7 @@
     $routeProvider
 
     .when('/', {
-        templateUrl: 'views/entrada.html',
+        templateUrl: 'views/login.html',
         controller: 'EntradaCtrl',
         controllerAs: 'entrada',
         publicView: true
@@ -32,14 +32,7 @@
     .when('/main', {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl',
-        controllerAs: 'main',
-        publicView: true
-    })
-    .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl',
-        controllerAs: 'about',
-        publicView: true
+        controllerAs: 'main'
     })
 
     .otherwise({
