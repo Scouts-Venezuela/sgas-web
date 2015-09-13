@@ -25,8 +25,8 @@
 
     .when('/', {
         templateUrl: 'views/login.html',
-        controller: 'EntradaCtrl',
-        controllerAs: 'entrada',
+        controller: 'loginCtrl',
+        controllerAs: 'login',
         publicView: true
     })
     .when('/main', {

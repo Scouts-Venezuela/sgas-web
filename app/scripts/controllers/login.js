@@ -8,7 +8,7 @@
  * Controller of the sgasApp
  */
 angular.module('sgas')
-    .controller('EntradaCtrl', function ($rootScope, $scope, $location, jwtHelper, store, apiService) {
+    .controller('loginCtrl', function ($rootScope, $scope, $location, jwtHelper, store, apiService) {
 
         if (store.get('token') && !jwtHelper.isTokenExpired(store.get('token'))) {
             $rootScope.logged = true;
@@ -18,7 +18,7 @@ angular.module('sgas')
         $scope.login = {};
 
         $scope.button = {
-            text: 'Iniciar sesión',
+            text: 'Entrar',
             enable: true
         };
 
