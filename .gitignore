@@ -12,3 +12,5 @@
 /.sass-cache
 /bower_components
 npm-debug.log
+
+/app/bower_components

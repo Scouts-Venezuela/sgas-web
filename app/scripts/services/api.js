@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc service
- * @name sgasApp.api
+ * @name sgas.api
  * @description
  * # api
- * Service in the sgasApp.
+ * Service in the sgas.
  */
-angular.module('sgasApp')
+angular.module('sgas')
   .service('apiService', function ($http) {
   	var base = 'http://localhost/restful/';
 

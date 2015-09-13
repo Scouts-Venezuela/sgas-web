@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name sgasApp.controller:EntradaCtrl
+ * @name sgas.controller:EntradaCtrl
  * @description
  * # EntradaCtrl
  * Controller of the sgasApp
  */
-angular.module('sgasApp')
+angular.module('sgas')
     .controller('EntradaCtrl', function ($rootScope, $scope, $location, jwtHelper, store, apiService) {
 
         if (store.get('token') && !jwtHelper.isTokenExpired(store.get('token'))) {

@@ -1,11 +1,18 @@
-<!doctype html>
-<html ng-app="sgasApp">
+<!DOCTYPE html>
+<html class="no-js" lang="es" ng-app="sgas">
     <head>
         <meta charset="utf-8">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-        <!-- Favicon -->
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="description" content="Sistema de Gestion Administrativa Scouts de Venezuela">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sistema de Gestion Administrativa Scouts de Venezuela</title>
+
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/main.css">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+        <!-- Place favicon.ico in the root directory -->
         <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
         <link rel="shortcut icon" href="images/favicon.ico" />
 
@@ -19,21 +26,13 @@
         <meta name="apple-mobile-web-app-title" content="Sistema de Gestion Administrativa Scouts de Venezuela">
         <link rel="apple-touch-icon-precomposed" href="images/touch/apple-touch-icon-precomposed.png">
 
-        <!-- Tile icon for Win8 (144x144 + tile color)(Cosa Asquerosa y horrible que tuve que agregar) -->
+        <!-- Tile icon for Win8 (144x144 + tile color) -->
         <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
         <meta name="msapplication-TileColor" content="#3372DF">
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <!-- build:css(.) styles/vendor.css -->
-        <!-- bower:css -->
-        <!-- endbower -->
-        <!-- endbuild -->
-        <!-- build:css(.tmp) styles/main.css -->
-        <link rel="stylesheet" href="styles/normalize.css">
-        <link rel="stylesheet" href="styles/main.css">
-        <link rel="stylesheet" href="styles/styles.css">
-        <!-- endbuild -->
-
+        <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+        <!-- <link rel="canonical" href="http://www.example.com/"> -->
+       
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -46,7 +45,13 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.deep_purple-indigo.min.css">
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <!-- build:css(.) styles/vendor.css -->
+        <!-- bower:css -->
+        <!-- endbower -->
+        <!-- endbuild -->
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" href="styles/styles.css">
+        <!-- endbuild -->
 
     </head>
     <body>
@@ -89,11 +94,12 @@
     <!-- endbower -->
     <!-- endbuild -->
 
-        <!-- build:js({.tmp,app}) scripts/scripts.js -->
-        <script src="scripts/app.js"></script>
-        <script src="scripts/controllers/main.js"></script>
-        <script src="scripts/controllers/entrada.js"></script>
-        <script src="scripts/services/api.js"></script>
-        <!-- endbuild -->
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/main.js"></script>
+    <script src="scripts/controllers/login.js"></script>
+    <script src="scripts/services/api.js"></script>
+    <!-- endbuild -->
+
     </body>
 </html>

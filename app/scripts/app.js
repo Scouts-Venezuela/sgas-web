@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name sgasApp
+ * @name sgas
  * @description
- * # sgasApp
+ * # sgas
  *
  * Main module of the application.
  */
  angular
- .module('sgasApp', [
+ .module('sgas', [
     'ngAnimate',
     'ngCookies',
     'ngResource',

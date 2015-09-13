@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name sgasApp.controller:MainCtrl
+ * @name sgas.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the sgasApp
+ * Controller of the sgas
  */
-angular.module('sgasApp')
+angular.module('sgas')
   .controller('MainCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
